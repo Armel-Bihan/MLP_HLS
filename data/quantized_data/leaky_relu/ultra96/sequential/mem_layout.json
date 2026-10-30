@@ -1,0 +1,196 @@
+{
+  "format": "concat_mem_v1",
+  "description": "V2 sequential layout. ACT_W is shared by network input, activations, LUT words and final output.",
+  "bits": {
+    "act_bits": 16,
+    "weight_bits": 16,
+    "bias_bits": 16,
+    "dsp_bits": 48
+  },
+  "weight_all_mem": "/home/armel/Documents/PHD/MLP-GitLab/MLP_HLS/data/quantized_data/leaky_relu/ultra96/sequential/weight_all.mem",
+  "bias_all_mem": "/home/armel/Documents/PHD/MLP-GitLab/MLP_HLS/data/quantized_data/leaky_relu/ultra96/sequential/bias_all.mem",
+  "act_all_mem": "/home/armel/Documents/PHD/MLP-GitLab/MLP_HLS/data/quantized_data/leaky_relu/ultra96/sequential/act_all.mem",
+  "weights": [
+    {
+      "layer_name": "layer_0",
+      "layer_idx": 0,
+      "offset": 0,
+      "length": 396,
+      "shape": [
+        66,
+        6
+      ]
+    },
+    {
+      "layer_name": "layer_1",
+      "layer_idx": 1,
+      "offset": 396,
+      "length": 3300,
+      "shape": [
+        50,
+        66
+      ]
+    },
+    {
+      "layer_name": "layer_2",
+      "layer_idx": 2,
+      "offset": 3696,
+      "length": 1900,
+      "shape": [
+        38,
+        50
+      ]
+    },
+    {
+      "layer_name": "layer_3",
+      "layer_idx": 3,
+      "offset": 5596,
+      "length": 1064,
+      "shape": [
+        28,
+        38
+      ]
+    },
+    {
+      "layer_name": "layer_4",
+      "layer_idx": 4,
+      "offset": 6660,
+      "length": 560,
+      "shape": [
+        20,
+        28
+      ]
+    },
+    {
+      "layer_name": "layer_5",
+      "layer_idx": 5,
+      "offset": 7220,
+      "length": 40,
+      "shape": [
+        2,
+        20
+      ]
+    }
+  ],
+  "biases": [
+    {
+      "layer_name": "layer_0",
+      "layer_idx": 0,
+      "offset": 0,
+      "length": 66,
+      "shape": [
+        66
+      ]
+    },
+    {
+      "layer_name": "layer_1",
+      "layer_idx": 1,
+      "offset": 66,
+      "length": 50,
+      "shape": [
+        50
+      ]
+    },
+    {
+      "layer_name": "layer_2",
+      "layer_idx": 2,
+      "offset": 116,
+      "length": 38,
+      "shape": [
+        38
+      ]
+    },
+    {
+      "layer_name": "layer_3",
+      "layer_idx": 3,
+      "offset": 154,
+      "length": 28,
+      "shape": [
+        28
+      ]
+    },
+    {
+      "layer_name": "layer_4",
+      "layer_idx": 4,
+      "offset": 182,
+      "length": 20,
+      "shape": [
+        20
+      ]
+    },
+    {
+      "layer_name": "layer_5",
+      "layer_idx": 5,
+      "offset": 202,
+      "length": 2,
+      "shape": [
+        2
+      ]
+    }
+  ],
+  "activations": [
+    {
+      "layer_name": "layer_0",
+      "layer_idx": 0,
+      "offset": 0,
+      "length": 0,
+      "activation_name": "leaky_relu",
+      "implementation": "analytic_int",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    },
+    {
+      "layer_name": "layer_1",
+      "layer_idx": 1,
+      "offset": 0,
+      "length": 0,
+      "activation_name": "leaky_relu",
+      "implementation": "analytic_int",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    },
+    {
+      "layer_name": "layer_2",
+      "layer_idx": 2,
+      "offset": 0,
+      "length": 0,
+      "activation_name": "leaky_relu",
+      "implementation": "analytic_int",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    },
+    {
+      "layer_name": "layer_3",
+      "layer_idx": 3,
+      "offset": 0,
+      "length": 0,
+      "activation_name": "leaky_relu",
+      "implementation": "analytic_int",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    },
+    {
+      "layer_name": "layer_4",
+      "layer_idx": 4,
+      "offset": 0,
+      "length": 0,
+      "activation_name": "leaky_relu",
+      "implementation": "analytic_int",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    },
+    {
+      "layer_name": "layer_5",
+      "layer_idx": 5,
+      "offset": 0,
+      "length": 0,
+      "activation_name": null,
+      "implementation": "none",
+      "addr_bits": null,
+      "reordered_for_hdl_raw_addressing": false
+    }
+  ],
+  "total_weight_words": 7260,
+  "total_bias_words": 204,
+  "total_activation_words": 0
+}

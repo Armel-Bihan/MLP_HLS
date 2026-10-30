@@ -1,0 +1,7 @@
+layer,layer_index,input_exp,weight_exp,bias_exp,accumulator_exp,accumulator_min,accumulator_max,bias_wrap_count,product_wrap_count,accumulator_wrap_count,preactivation_exp,preactivation_shift_wrap_count,activation_shift_wrap_count,output_narrowing_count,output_exp,output_min,output_max,overflow_count
+layer_0,0,16,15,18,31,-667628792,379270495,0,0,0,16.0,0.0,0,0,17,-638,23148,0
+layer_1,1,17,14,18,31,-926728548,675507526,0,0,0,16.0,0.0,0,0,16,-442,20614,0
+layer_2,2,16,14,18,30,-753617863,495208225,0,0,0,15.0,0.0,0,0,16,-720,30224,0
+layer_3,3,16,14,18,30,-642350906,707965380,0,0,0,15.0,0.0,0,0,15,-307,21605,0
+layer_4,4,15,14,18,29,-277191789,429535970,0,0,0,15.0,0.0,0,0,15,-265,26216,0
+layer_5,5,15,15,19,30,-664952776,515212795,0,0,0,,,0,0,15,-20293,15723,0
